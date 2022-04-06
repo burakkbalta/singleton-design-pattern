@@ -1,16 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/* 
- * File:   singleton.h
- * Author: cpp
- *
- * Created on January 29, 2021, 4:11 PM
- */
-
 #ifndef SINGLETON_CRTP_H
 #define SINGLETON_CRTP_H
 
