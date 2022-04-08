@@ -21,7 +21,7 @@ struct IMainCtor {
  * Traits which can be used to check whether type T has a variable named IsMainCtorCalled.
  * If it has it inherits true_type, otherwise false_type.
  */
-template <typename T, typename = decltype(std::declval<IMainCtor>().IsMainCtorCalled)>
+template <typename T, typename = decltype(std::declval<T>().IsMainCtorCalled)>
 struct has_MainCtor : std::false_type {};
 
 template <typename T>
